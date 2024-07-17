@@ -1,1 +1,2 @@
-nohup bash -c "./med-ps.sh" &
+nohup bash -c "./med-ps.sh" >  watch.log 2>&1 &
+echo $! > pid.txt

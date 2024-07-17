@@ -12,6 +12,7 @@ do
     # service is not running
     echo uruchamiam medibota
 
+    /home/marcin/medihunter/medihunt
     # medibot command
 
     sleep $((60*5))
